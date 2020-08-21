@@ -23,7 +23,7 @@ class ViewController: UIViewController, WKNavigationDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let url = URL(string: "https://www.recruitmentfundingsolutions.co.uk/portal/login-page/")!
+        let url = URL(string: "www.WebsiteAddressGoesHere.com")!
         webView.load(URLRequest(url: url))
         
         let refresh = UIBarButtonItem(barButtonSystemItem: .refresh, target: webView, action: #selector(webView.reload))
